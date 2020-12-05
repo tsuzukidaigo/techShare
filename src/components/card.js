@@ -28,7 +28,7 @@ const BlogCard = props => {
             component="img"
             alt={title}
             height="250px"
-            width="100%"
+            width="290px"
             image={eyecatch.file.url}
             title={title}
           />
