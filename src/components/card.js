@@ -18,7 +18,7 @@ const useStyles = makeStyles({
 
 const BlogCard = props => {
   const classes = useStyles()
-  const { title, slug, createdAt, eyecatch, link, key } = props
+  const { title, createdAt, eyecatch, link, key } = props
 
   return (
     <Card className={classes.root} key={key}>

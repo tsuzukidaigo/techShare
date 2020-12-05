@@ -25,12 +25,21 @@
       flex-flow: row wrap;
       width: 100%
   }
-  @media (max-width: 840px){
+  @media (max-width: 600px){
     .card{
       margin-top: 10%;
       width: 300%;
     }
   }
+  .title {
+    margin-top: 10%;
+}
+@media (max-width: 600px){
+  .title{
+    margin-top: 20%;
+
+  }
+}
   
   a {
     text-decoration: none;
@@ -586,7 +595,7 @@
     align-items: center;
     margin: 120px 0 60px 0;
   }
-  .topic-page-header h1 {
+  .topic-page-header  {
     margin-right: 24px;
   }
   .topic-page-image {
