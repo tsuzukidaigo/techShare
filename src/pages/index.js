@@ -57,7 +57,7 @@ const IndexPage = props => {
         <SEO title="Home" />
         <div className="container">
           <h1 className={classes.title}>全ての記事</h1>
-          <div>
+          <div className="card">
             {data.allContentfulBlogPost.edges.map(({ node }, index) => (
               <BlogCard
                 title={node.title}
