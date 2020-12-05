@@ -8,17 +8,6 @@ import BlogCard from "../components/card"
 import Search from "../components/search"
 
 const useStyles = makeStyles(theme => ({
-  card: {
-    [theme.breakpoints.up("sm")]: {
-      marginTop: "5%",
-      display: "flex",
-      flexFlow: "row wrap",
-    },
-    [theme.breakpoints.down("sm")]: {
-      marginTop: "10%",
-      width: "300%",
-    },
-  },
   title: {
     [theme.breakpoints.up("sm")]: {
       marginTop: "10%",
@@ -68,7 +57,7 @@ const IndexPage = props => {
         <SEO title="Home" />
         <div className="container">
           <h1 className={classes.title}>全ての記事</h1>
-          <div className={classes.card}>
+          <div className="card">
             {data.allContentfulBlogPost.edges.map(({ node }, index) => (
               <BlogCard
                 title={node.title}

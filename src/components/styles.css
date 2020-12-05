@@ -19,7 +19,17 @@
       padding: 0 20px;
     }
   }
-
+  .card {
+      margin-top: 5%;
+      display: flex;
+      flex-flow: row wrap;
+  }
+  @media (max-width: 840px){
+    .card{
+      margin-top: 10%;
+      width: 300%;
+    }
+  }
   
   a {
     text-decoration: none;
