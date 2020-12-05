@@ -20,7 +20,7 @@ export const query = graphql`
             file {
               url
             }
-            fluid(maxWidth: 10) {
+            fluid(maxWidth: 290) {
               src
             }
           }

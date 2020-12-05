@@ -31,6 +31,9 @@ const IndexPage = props => {
               file {
                 url
               }
+              fluid(maxWidth: 290) {
+                src
+              }
             }
           }
         }

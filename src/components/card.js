@@ -29,7 +29,7 @@ const BlogCard = props => {
             alt={title}
             height="250px"
             width="290px"
-            image={eyecatch.file.url}
+            image={eyecatch.fluid.src}
             title={title}
           />
         </CardActionArea>
