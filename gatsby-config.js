@@ -38,6 +38,12 @@ module.exports = {
         accessToken: "90KCqpL-LLh1wU7SzotgvlWUQVKfZ-TSz01NHFt6wnY",
       },
     },
+    {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: "ca-pub-6338495423508409",
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
