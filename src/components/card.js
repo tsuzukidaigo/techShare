@@ -21,7 +21,7 @@ const BlogCard = props => {
   const { title, createdAt, eyecatch, link, key } = props
 
   return (
-    <Card className={classes.root} key={key}>
+    <Card className="cardRoot" key={key}>
       <Link to={link}>
         <CardActionArea>
           <CardMedia

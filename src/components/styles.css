@@ -31,6 +31,12 @@
       width: 300%;
     }
   }
+  .cardRoot {
+    max-width: 30%;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
   .title {
     margin-top: 10%;
 }
